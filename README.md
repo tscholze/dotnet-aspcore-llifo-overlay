@@ -10,12 +10,15 @@
 ## How it looks
 
 **Webpage with an overview of all available overlay images**
+
 ![Overlay board items page](_docs/browser.PNG) 
 
 **Use a StreamDeck to trigger an overlay**
+
 ![Streamdeck with Button](_docs/streamdeck.PNG) 
 
 **Result in OBS**
+
 ![Overlay in OBS](_docs/stream.png)
 
 ## How it works
