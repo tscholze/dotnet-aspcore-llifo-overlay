@@ -1,6 +1,6 @@
 # LLifo.Overlay
 
-> Llifo, welsh for &quot;streaming&quot;, is an local hosted and open source ASP.NET Core Razor app that demonstrate a simple usage of the SignalR functionality.
+> Llifo, welsh for &quot;streaming&quot;, is an local hosted and open source ASP.NET Core Razor app that demonstrate a simple usecase of the SignalR functionality. Presenting a stream overlay image.
 
 ## Prerequirements
 - Mac, Linux, Windows
@@ -11,9 +11,7 @@
 
 At the moment the user interface is only used to test the code behind.
 
-![Overlay board items page](_docs/browser.PNG)
-![Streamdeck with Button](_docs/streamdeck.PNG)
-![Overlay in OBS](_docs/stream.png)
+![Overlay board items page](_docs/browser.PNG) ![Streamdeck with Button](_docs/streamdeck.PNG) ![Overlay in OBS](_docs/stream.png)
 
 ## How it works
 
