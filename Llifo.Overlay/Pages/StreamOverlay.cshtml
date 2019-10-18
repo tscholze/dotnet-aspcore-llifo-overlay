@@ -1,0 +1,19 @@
+﻿@page
+@model Llifo.Overlay.Pages.StreamOverlayModel
+@{
+    Layout = null;
+}
+
+<html>
+<body style="margin: 0px; padding: 0px;">
+    <!-- 
+        Image place holder that will be filled by the
+        streamoverlay.js event handler
+    -->
+    <img id="boardImage" src=""  style="max-width:100%; max-height: 100%;" />
+
+    <!-- Embed SignalR JavaScript -->
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/streamOverlay.js"></script>
+</body>
+</html>

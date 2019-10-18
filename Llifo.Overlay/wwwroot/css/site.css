@@ -1,0 +1,65 @@
+﻿/**
+    Based on Microsoft Office Fabrics colors:
+        https://developer.microsoft.com/en-us/fabric#/styles/web/colors/theme-slots
+*/
+
+/**
+    Defined colors.
+*/
+:root {
+    --neutralDark: #201f1e;
+    --neutralPrimary: #323130;
+    --neutralPrimaryAlt: #3b3a39;
+    --primaryAccent: #5c2d91;
+    --boarditem-container-width: 200px;
+    --boarditem-container-padding: 3px;
+    --boarditem-container-image-max-width: 194px;
+    --boarditem-container-image-max-height: 180px;
+}
+
+body {
+    color: var(--primaryAccent);
+    background-color: var(--neutralDark);
+    margin: 20px;
+}
+
+a, a:active, a:visited {
+    color: var(--primaryAccent);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primaryAccent);
+}
+
+.header-container {
+    margin-bottom: 10px;
+}
+
+.boarditems-container {
+    margin: 20px;
+}
+
+.boarditem-container {
+    float: left;
+    width: var(--boarditem-container-width);
+    height: var(--boarditem-container-width);
+    padding: var(--boarditem-container-padding);
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid var(--primaryAccent);
+    margin: 10px;
+}
+
+    .boarditem-container img {
+        max-width: var(--boarditem-container-image-max-width);
+        height: var(--boarditem-container-image-max-height);
+    }
+
+    .boarditem-container span {
+        color: var(--primaryAccent);
+    }
+
+    .boarditem-container:hover {
+        background-color: var(--neutralPrimary);
+    }

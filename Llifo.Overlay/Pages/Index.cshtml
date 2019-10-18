@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+<!-- Render static header -->
+<div class="header-container">
+    <span class="ms-fontSize-28 ms-fontColor-purple ms-fontWeight-semibold">
+        Llifo.Overlay
+    </span>
+    <span class="ms-fontSize-12 ms-fontColor-gray140">
+        ASP.NET Core SignalR Core Demo.
+    </span>
+</div>
+
+@if (Model.BoardItems.Count == 0)
+{
+    <p>No board items available.</p>
+}
+else
+{
+    <!-- Open Stream overlay link -->
+    <div>
+        <a href="StreamOverlay" target="_blank">Open </a>
+        <span class="ms-fontColor-gray140">Stream overlay in popup</span>
+    </div>
+
+    <!-- List of items -->
+    <div class="boarditems-container">
+        @foreach (var item in Model.BoardItems)
+        {
+            <a asp-page="./Index" asp-page-handler="show" asp-route-id="@item.Path" title="Show">
+                <div class="boarditem-container">
+                    <img src="@item.Path" /><br />
+                    <span style="vertical-align:bottom">@Html.DisplayFor(modelItem => item.Name)</span>
+                </div>
+            </a>
+        }
+    </div>
+}
