@@ -26,7 +26,7 @@
 The stream overlay image board will use all files from the `wwwroot/content` directory. The communication between the board and the actual overlay web page is realized by using a SignalR Core Hub.
 On the reciever side, the SignalR incoming message handling is implemented in a simpel JavaScript file `streamOverlay.js`.  
 
-That means, that you can use every web-request making device to trigger an overlay. For example a browser like seen above or a Elgato StreamDeck button action.
+That means, that you can use every web-request making device to trigger an overlay. For example a browser like seen above or an Elgato StreamDeck button action.
 
 **Keep in mind**
 * This not an example app, not meant for production or something more than beginner level
