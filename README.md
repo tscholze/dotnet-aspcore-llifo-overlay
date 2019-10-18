@@ -9,9 +9,14 @@
 
 ## How it looks
 
-At the moment the user interface is only used to test the code behind.
+**Webpage with an overview of all available overlay images**
+![Overlay board items page](_docs/browser.PNG) 
 
-![Overlay board items page](_docs/browser.PNG) ![Streamdeck with Button](_docs/streamdeck.PNG) ![Overlay in OBS](_docs/stream.png)
+**Use a StreamDeck to trigger an overlay**
+![Streamdeck with Button](_docs/streamdeck.PNG) 
+
+**Result in OBS**
+![Overlay in OBS](_docs/stream.png)
 
 ## How it works
 
